@@ -1,0 +1,26 @@
+# Radar AI Agent configuration.
+# Swap the LLM by changing `model.name` (and `model.host` if Ollama is remote).
+# Override from CLI with --model / --host.
+
+model:
+  provider: ollama
+  name: qwen3.5:9b
+  # name: gemma4:latest
+  # host: http://localhost:11434
+  host: http://100.79.51.65:11434
+  # Generation parameters -- tune if the agent is too chatty or too terse.
+  options:
+    temperature: 0.2
+    num_ctx: 8192
+
+array:
+  # Default array geometry used by the simulator when the user does not specify.
+  n_elements: 16
+  spacing_wavelengths: 0.5
+  snapshots: 200
+  snr_db: 10.0
+
+output:
+  root: output           # run directories are created under this path
+  dpi: 150               # figure DPI for saved PNGs
+  angle_grid_deg: 0.1    # beampattern angular resolution
