@@ -1,4 +1,4 @@
-# The Cognitive Array -- ECE 693 Term Project
+# Cognitive Radar
 
 An LLM-driven radar agent. A local language model (via [Ollama](https://ollama.com))
 reasons about the array-processing scenario, then calls Python DSP tools
