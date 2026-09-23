@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2608.11596-b31b1b.svg)](https://arxiv.org/abs/2608.11596)
+
 # Cognitive Radar
 
 An SLM-driven radar agent. A local language model (via [Ollama](https://ollama.com))
@@ -11,6 +13,19 @@ numerical results.
 |   (CLI)    | <----------------- |  (Ollama, tool use)  | <--------------- |  (NumPy / SciPy)     |
 +------------+  explanation +     +----------------------+  numerical       +----------------------+
                 plot filenames                              results + plots
+```
+## Citation
+
+The paper associated with this code-base has been accepted at IEEE MLSP 2026 Conference 🎉! 
+
+If you find this repository or our [paper](https://arxiv.org/abs/2608.11596) useful, please consider citing it:
+```
+@article{ahmad2026small,
+  title={Small Language Model enabled Autonomous agent for Language-Conditioned Cognitive Radar},
+  author={Ahmad, Minhaj Uddin and Zaman, Zakia and Sun, Shunqiao and Rahman, Mizanur},
+  journal={arXiv preprint arXiv:2608.11596},
+  year={2026}
+}
 ```
 
 ## Layout
